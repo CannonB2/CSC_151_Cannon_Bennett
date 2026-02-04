@@ -10,8 +10,10 @@ public class Main {
     public static void main(String[] args) throws Exception {
         Mammal mammal = new Mammal();
 
-        mammal.getMammalDetails();
+        // mammal.getMammalDetails();
 
-        mammal.sit();
+        // mammal.sit();
+
+        mammal.walk();
     }
 }

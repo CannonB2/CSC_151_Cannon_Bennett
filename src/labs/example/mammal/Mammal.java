@@ -5,6 +5,7 @@
 */
 
 package labs.example.mammal;
+import java.lang.Math;
 
 public class Mammal {
     
@@ -39,8 +40,20 @@ public class Mammal {
 
     }
 
-    public void walk() {
+    public void walk() throws Exception {
+        int southDistance = 3;
+        int eastDistance = 4;
+        double a = Math.pow(southDistance, 2);
+        double b = Math.pow(eastDistance, 2);
+        double c = Math.sqrt(a + b);
+        double angle = Math.toDegrees(Math.atan2(3, 4));
 
+        System.out.println("The " + this.breed + " is walking " + southDistance + " miles South.");
+        Thread.sleep(southDistance*1000);
+        System.out.println("The " + this.breed + " is now walking " + eastDistance + " miles East.");
+        Thread.sleep(eastDistance*1000);
+        System.out.println("The distance that the" + this.breed + " walked from start point to end point is " + c + ".");
+        System.out.println("The angle at the longest leg of the walk is " + angle + " degrees.");
     }
 
     public void fetch() {
