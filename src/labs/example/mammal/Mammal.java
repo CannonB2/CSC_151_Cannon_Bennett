@@ -7,46 +7,67 @@
 package labs.example.mammal;
 
 public class Mammal {
-    String hairColor;
-    String eyeColor;
-    int bodyTemp;
-    String breed;
-    String height;
-    String weight;
+    
+    String hairColor = "brown";
+    String eyeColor = "brown";
+    int bodyTemp = 101;
+    String breed = "labradoodle";
+    int height = 21;
+    int weight = 50;
 
-    public static void run() {
-
-    }
-
-    public static void eat() {
+    public void run() {
 
     }
 
-    public static void sleep() {
+    public void eat() {
 
     }
 
-    public static void scratch() {
+    public void sleep() {
 
     }
 
-    public static void play() {
+    public void scratch() {
 
     }
 
-    public static void drink() {
+    public void play() {
 
     }
 
-    public static void walk() {
+    public void drink() {
 
     }
 
-    public static void fetch() {
+    public void walk() {
 
     }
 
-    public static void sit() {
-        
+    public void fetch() {
+
+    }
+
+    public void sit() throws Exception {
+        int sitTime = 15000;
+        System.out.println("The " + this.breed + " is sitting, they will stand up in " + sitTime/1000 + " seconds.");
+        Thread.sleep(sitTime);
+        System.out.println("The " + this.breed + " is " + stand() + " and " + bark() + ".");
+    }
+
+    public void getMammalDetails() {
+        System.out.println(this.hairColor);
+        System.out.println(this.eyeColor);
+        System.out.println(this.bodyTemp);
+        System.out.println(this.breed);
+        System.out.println(this.height);
+        System.out.println(this.weight);
+    }
+
+    public String stand() {
+        return "standing";
+    }
+
+    public String bark() {
+        return "barking";
     }
 }
