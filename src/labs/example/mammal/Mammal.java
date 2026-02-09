@@ -15,6 +15,7 @@ public class Mammal {
     String breed = "labradoodle";
     int height = 21;
     int weight = 50;
+    String name;
 
     public void run() {
 
@@ -64,7 +65,6 @@ public class Mammal {
         int sitTime = 15000;
         System.out.println("The " + this.breed + " is sitting, they will stand up in " + sitTime/1000 + " seconds.");
         Thread.sleep(sitTime);
-        System.out.println("The " + this.breed + " is " + stand() + " and " + bark() + ".");
     }
 
     public void getMammalDetails() {
@@ -81,6 +81,9 @@ public class Mammal {
     }
 
     public String bark() {
-        return "barking";
+        if (name == "Dog") {
+            return "barking";
+        }
+        return "";
     }
 }

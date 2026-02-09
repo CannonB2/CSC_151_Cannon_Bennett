@@ -10,10 +10,19 @@ public class Main {
     public static void main(String[] args) throws Exception {
         Mammal mammal = new Mammal();
 
+        mammal.name = "Dog";
+
         // mammal.getMammalDetails();
 
-        // mammal.sit();
+        mammal.sit();
+        if (mammal.name == "Dog") {
+            System.out.println("The " + mammal.breed + " is " + mammal.stand() + " and " + mammal.bark() + ".");
+        } else {
+            System.out.println("The " + mammal.breed + " is " + mammal.stand() + ".");
+        }
 
-        mammal.walk();
+        // mammal.walk();
+
+        
     }
 }
