@@ -18,6 +18,11 @@ public class Main {
         // Creates a new instance of Physics to use
         Physics physics = new Physics();
 
+        // Sets up variables to be used later
+        // variables are set to be equal to the returned variable from their respective methods
+        double angle = physics.calcAngle(3, 4);
+        double distanceEarthToSun = physics.getDistance(physics.getLightSpeedInMPH(), physics.getTimeFromSunToEarthInHours());
+
         /* 
         Uses the different get methods from Physics for calculations and then prints the returned result to console with the proper units
         values inside parenthesis are passed to the method for use in calculations 
@@ -37,5 +42,22 @@ public class Main {
         System.out.println(physics.getKineticEnergy(14.72, 6.62) + " Joule");
 
         System.out.println(physics.getPotentialEnergy(9.18, 5.52) + " Joule");
+
+        // Runs an if-else statement to check if the returned angle is from a right triangle, running two different methods depending on the result
+        if (angle > 37 || angle < 36.87) 
+        {
+            physics.logInvalidAngleInfo(angle);
+        } 
+        else 
+        {
+            physics.logValidAngleInfo(angle);
+        }
+
+        // runs an if statement to check if the returned distance is the actual distance from the sun to the earth
+        // if the result is wrong then a method is ran. If it's not... I don't know what should happen you didn't tell us
+        if (distanceEarthToSun != 92947266.72)
+        {
+            physics.logEarthToSunInvalidDistance(distanceEarthToSun);
+        }
     }
 }

@@ -60,4 +60,37 @@ public class Physics {
         pe = m * GRAVITY * h;
         return pe;
     }
+
+    // calculate the angle in degrees of a triangle
+    public double calcAngle(double a, double b) {
+        double angle = Math.atan2(a, b) * 180/3.1415;
+        return angle;
+    }
+
+    // prints a message if the previously calculated angle was not from a right triangle
+    public void logInvalidAngleInfo(double angle) {
+        System.out.println("logging the angle " + angle + " degrees. This is not a right angle.");
+    }
+
+    // prints a message if the previously calculated angle was from a right triangle
+    public void logValidAngleInfo(double angle) {
+        System.out.println("logging the angle " + angle + " degrees. This is a valid 3-4-5 triangle.");
+    }
+
+    // calculates the speed of light in miles per hour
+    // This should probably just be a constant since light speed doesn't tend to change
+    public int getLightSpeedInMPH() {
+        int lSpeed = 186282;
+        return lSpeed * 3600;
+    }
+
+    // calculates the time it takes for light to get from the earth to the sun in hours
+    public double getTimeFromSunToEarthInHours() {
+        return 92947266.72 / 670615200;
+    }
+
+    // if the the distance from the earth to the sun was calculated incorrectly then this will print
+    public void logEarthToSunInvalidDistance(double distance) {
+        System.out.println("logging the distance " + distance + " miles. This is not the right distance.");
+    }
 }
