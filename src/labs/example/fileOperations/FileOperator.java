@@ -7,18 +7,26 @@
 package labs.example.fileOperations;
 
 import java.io.*; //using the java.io library because its not a pain -crystal talbert
+import java.util.*;
 
 // record Account(String name, double grade) {};
 
 public class FileOperator { 
-    public static void fileOperator (String[] args) {
-        //creating file paths 
-        // private static final String BASE_FILE_PATH = "T:/CSC_151_Cannon_Bennett/src/labs/example/fileOperations/files/users.csv"; //base path to package 
-        //not sure of this filepath format, worst case look up windows filepathing in java
-        // private static final String USERS_CSV_FILE = "files/users.csv";//points to users.csv
-        Path filePath = Path.of(System.getProperty("CSC_151_Cannon_Bennett.home"), "files", "users.csv");
-/*
-        //this is your base that you will use for most file operations 
+
+    //creating file paths 
+    private static final String BASE_FILE_PATH = "T:\\CSC_151_Cannon_Bennett\\src\\labs\\example\\fileOperations\\"; //base path to package 
+    //not sure of this filepath format, worst case look up windows filepathing in java
+    private static final String USERS_CSV_FILE = "src\\labs\\example\\fileOperations\\files\\users.csv";//points to users.csv
+    private static final String CSV_LOGS_FILE = "src\\labs\\example\\fileOperations\\logs\\csv_error.log";
+
+    public static void fileOperations() {
+
+        File users_file = new File(BASE_FILE_PATH + USERS_CSV_FILE);
+        File log_file = new File(BASE_FILE_PATH + CSV_LOGS_FILE);
+
+        
+
+        /*
         private static void openCsvFile(File csvFile, BufferedReader br) //pass in file and bufferedreader objects 
         {
             try
