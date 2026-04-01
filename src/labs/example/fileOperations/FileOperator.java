@@ -21,10 +21,25 @@ public class FileOperator {
 
     public static void fileOperations() {
 
-        File users_file = new File(BASE_FILE_PATH + USERS_CSV_FILE);
+        File students_file = new File(BASE_FILE_PATH + USERS_CSV_FILE);
         File log_file = new File(BASE_FILE_PATH + CSV_LOGS_FILE);
 
-        
+
+        if (students_file.exists() && log_file.exists()) {
+
+        } else {
+
+            if (!log_file.exists()) {
+
+            }
+        }
+
+        if (!students_file.exists()) {
+            System.out.println("Error! Could not find users file.")
+        }
+        if (!log_file.exists()) {
+            System.out.println("Error! Could not find csv error log.")
+        }
 
         /*
         private static void openCsvFile(File csvFile, BufferedReader br) //pass in file and bufferedreader objects 
