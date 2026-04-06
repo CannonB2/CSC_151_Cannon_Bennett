@@ -13,10 +13,11 @@ import java.util.*;
 public class FileOperator { 
 
     //creating file paths 
-    private static final String BASE_FILE_PATH = "C:\\Users\\Malak\\CSC_151_Cannon_Bennett\\src\\labs\\example\\fileOperations"; //base path to package 
+    private static final String BASE_FILE_PATH = "T:\\CSC_151_Cannon_Bennett\\src\\labs\\example\\fileOperations"; //base path to package 
     //not sure of this filepath format, worst case look up windows filepathing in java
     private static final String USERS_CSV_FILE = BASE_FILE_PATH + "\\files\\users.csv";//points to users.csv
     private static final String CSV_LOGS_FILE = BASE_FILE_PATH + "\\logs\\csv_error.log";
+    private static final String API_LOGS_FILE = BASE_FILE_PATH + "\\logs\\api_error.log";
 
     // creates fileOperations method that will be used for creating and writing to files for now
     public static void fileOperations() {
@@ -82,5 +83,23 @@ public class FileOperator {
         catch(IOException e) {
             System.out.println("Error! could not get Buffer Reader object.");
         }
+    }
+
+    public static void readAPILog() {
+        try {
+            File apiLogFile = new File(API_LOGS_FILE);
+
+            if (apiLogFile.exists()) {
+                BufferedReader br = new BufferedReader(new FileReader(API_LOGS_FILE));
+                String line;
+
+                while ((line = br.readLine()) != null) {
+                    System.out.println(line);
+                }
+            }
+        } 
+        catch(IOException e) {
+            System.out.println("Error! could not get Buffer Reader object.");
+        } 
     }
 }

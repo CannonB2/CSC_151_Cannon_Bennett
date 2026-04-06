@@ -16,8 +16,8 @@ public class Main {
 
         FileOperator fileOperator = new FileOperator();
 
-        fileOperator.fileOperations();
-
-
+        // fileOperator.fileOperations();
+        
+        fileOperator.readAPILog();
     }
 }
