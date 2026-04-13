@@ -17,7 +17,7 @@ import java.util.*;
 public class Logger {
 
     // Used to declare the file paths from the start
-    private static final String BASE_FILE_PATH = "C:\\Users\\Malak\\CSC_151_Cannon_Bennett\\src\\labs\\example\\fileOperations";
+    private static final String BASE_FILE_PATH = "T:\\CSC_151_Cannon_Bennett\\src\\labs\\example\\fileOperations";
     private static final String API_LOGS_FILE = BASE_FILE_PATH + "\\logs\\api_error.log";
 
     // Main method used to run other methods in the class
@@ -40,6 +40,7 @@ public class Logger {
             BufferedReader log2;
             log2 = logger.openErrorLog();
             logger.getMemoryLimitExceededCount(log2);
+            logger.getDiskSpaceErrorsWithIPAddress(log2);
             log2.close();
         }
         catch (IOException e) {
@@ -131,4 +132,30 @@ public class Logger {
             System.out.println("Error! could not get Buffer Reader object.");
         }
     }
+
+    private void getDiskSpaceErrorsWithIPAddress(BufferedReader file) {
+        try {
+            int lineNum = 0;
+            String line;
+            var lineNumList = new ArrayList<int> ();
+            var ipList = new ArrayList<String> ();
+
+            while ((line = file.readline()) != null) {
+                lineNum++;
+                String[] value = line.split("\\]|\\- |\\|");
+                if (value[2].equals("Disk space running low ")) {
+                    lineNumList.add(lineNum);
+                    ipList.add(value[1]);
+                }
+            }
+
+            for (int i = 0; i <= lineNumList.size(); i++) {
+                System.out.println("Disk Space error on line " + lineNumList[i] + " for IP Address: " + ipList[i]);
+            }
+        }
+        catch (IOException e) {
+            System.out.println("Error! could not get Buffer Reader object.");
+        }
+    }
 }
+// Disk space running low 
