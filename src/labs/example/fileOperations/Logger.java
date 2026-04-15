@@ -17,7 +17,7 @@ import java.util.*;
 public class Logger {
 
     // Used to declare the file paths from the start
-    private static final String BASE_FILE_PATH = "T:\\CSC_151_Cannon_Bennett\\src\\labs\\example\\fileOperations";
+    private static final String BASE_FILE_PATH = "C:\\Users\\Malak\\CSC_151_Cannon_Bennett\\src\\labs\\example\\fileOperations";
     private static final String API_LOGS_FILE = BASE_FILE_PATH + "\\logs\\api_error.log";
 
     // Main method used to run other methods in the class
@@ -31,15 +31,19 @@ public class Logger {
 
             // makes the buffer reader we just created contain the information from the api error log
             // runs a method to get the amount of errors in the log, passing the buffer reader to the method, then closes the file
+            /*      From previous assignment
             log = logger.openErrorLog();
             logger.getCountOfErrorTypes(log);
             log.close();
+            */
 
             // creates a second buffer reader that also contains information from the error log
             // runs a method to count the amount of times the memory is exceeded in the log, passing the buffer reader to the method, then closes the file
             BufferedReader log2;
             log2 = logger.openErrorLog();
+            /*      From previous assignment
             logger.getMemoryLimitExceededCount(log2);
+            */
             logger.getDiskSpaceErrorsWithIPAddress(log2);
             log2.close();
         }
@@ -137,20 +141,20 @@ public class Logger {
         try {
             int lineNum = 0;
             String line;
-            var lineNumList = new ArrayList<int> ();
+            var lineNumList = new ArrayList<String> ();
             var ipList = new ArrayList<String> ();
 
-            while ((line = file.readline()) != null) {
+            while ((line = file.readLine()) != null) {
                 lineNum++;
                 String[] value = line.split("\\]|\\- |\\|");
                 if (value[2].equals("Disk space running low ")) {
-                    lineNumList.add(lineNum);
+                    lineNumList.add(String.valueOf(lineNum));
                     ipList.add(value[1]);
                 }
             }
 
-            for (int i = 0; i <= lineNumList.size(); i++) {
-                System.out.println("Disk Space error on line " + lineNumList[i] + " for IP Address: " + ipList[i]);
+            for (int i = 0; i <= lineNumList.size()-1; i++) {
+                System.out.println("Disk Space error on line " + lineNumList.get(i) + " for IP Address: " + ipList.get(i));
             }
         }
         catch (IOException e) {
