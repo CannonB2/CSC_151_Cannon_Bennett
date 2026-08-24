@@ -1,14 +1,14 @@
 /*
 Javac -d bin com/labs/week2/*.java
-Java -cp bin com/labs/week2/Example
+Java -cp bin com/labs/week2/Main
 */
 
 package com.labs.week2;
 
 import java.util.*;
 
-public class Example {
-    public void testArrays(String[] args) {
+public class Main {
+    public static void main(String[] args) {
         Box<String> b = new Box<>();
         b.set("Hello");
 

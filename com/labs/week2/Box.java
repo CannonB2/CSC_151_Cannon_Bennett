@@ -12,4 +12,10 @@ public class Box<T> {
     public T get() {
         return item;
     }
+
+    public static <T> void printArray(T[] arr) {
+        for (T item : arr) {
+            System.out.println(item);
+        }
+    }
 }
