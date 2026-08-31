@@ -5,17 +5,16 @@ import java.util.*;
 public class Box<T> {
     private T item;
 
-    public void set(T item) {
-        this.item = item;
+    // What these should do is never described so I left them blank
+    public void add(T item) {
+
     }
 
-    public T get() {
-        return item;
-    }
+    public void get() {
 
-    public static <T> void printArray(T[] arr) {
-        for (T item : arr) {
-            System.out.println(item);
-        }
+    }
+    
+    public void delete(T item) {
+
     }
 }
