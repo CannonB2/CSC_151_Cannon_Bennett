@@ -1,21 +1,21 @@
-package com.labs.week2;
+package com.labs.week3;
 import java.util.*;
 
 public class Storage<T> {
-    private T[] items;
+    private ArrayList<T> items;
     private int count = 0;
 
     public Storage(int size) {
-        items = (T[]) new Object[size];
+        items = new ArrayList<>(size);
     }
 
     public void add(T item) {
         items.add(item);
+        count++;
     }
 
     public T get(int index) {
-
-        return null;
+        return items.get(index);
     }
 
     public int size() {
