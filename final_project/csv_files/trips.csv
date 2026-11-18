@@ -1,0 +1,100 @@
+1,1,1,2026-11-01,Southern Pines,Charlotte,Completed
+2,2,4,2026-11-01,Raleigh,Durham,Completed
+3,3,5,2026-11-02,Charlotte,Atlanta,Completed
+4,4,2,2026-11-02,Southern Pines,Fayetteville,Completed
+5,5,10,2026-11-03,Greensboro,Raleigh,Completed
+6,6,11,2026-11-03,Raleigh,Chapel Hill,Completed
+7,7,20,2026-11-04,Charlotte,Columbia,Completed
+8,8,9,2026-11-04,Fayetteville,Lumberton,Completed
+9,9,13,2026-11-05,Durham,Greensboro,Completed
+10,10,12,2026-11-05,Raleigh,Cary,Completed
+11,11,18,2026-11-06,Charlotte,Asheville,Completed
+12,12,6,2026-11-06,Southern Pines,Pinehurst,Completed
+13,13,25,2026-11-07,Greensboro,Charlotte,Completed
+14,14,22,2026-11-07,Raleigh,Wake Forest,Completed
+15,15,3,2026-11-08,Fayetteville,Jacksonville,Completed
+16,1,1,2026-11-08,Charlotte,Concord,Completed
+17,2,4,2026-11-09,Raleigh,Wilson,Completed
+18,3,5,2026-11-09,Atlanta,Charlotte,Completed
+19,6,11,2026-11-10,Durham,Hillsborough,Completed
+20,7,20,2026-11-10,Columbia,Charlotte,Completed
+21,9,13,2026-11-11,Greensboro,Winston-Salem,Completed
+22,10,12,2026-11-11,Cary,Raleigh,Completed
+23,11,18,2026-11-12,Asheville,Charlotte,Completed
+24,13,25,2026-11-12,Charlotte,Greensboro,Completed
+25,15,3,2026-11-12,Jacksonville,New Bern,Completed
+26,1,1,2026-11-13,Southern Pines,Rockingham,Completed
+27,2,4,2026-11-13,Raleigh,Goldsboro,Completed
+28,3,5,2026-11-13,Charlotte,Greenville SC,Completed
+29,4,2,2026-11-14,Fayetteville,Hope Mills,Completed
+30,6,11,2026-11-14,Chapel Hill,Durham,Completed
+31,7,20,2026-11-14,Charlotte,Rock Hill,Completed
+32,9,13,2026-11-15,Greensboro,High Point,Completed
+33,10,12,2026-11-15,Raleigh,Garner,Completed
+34,11,18,2026-11-15,Charlotte,Statesville,Completed
+35,13,25,2026-11-16,Greensboro,Durham,Completed
+36,15,3,2026-11-16,Fayetteville,Goldsboro,Completed
+37,1,1,2026-11-16,Southern Pines,Carthage,Completed
+38,2,4,2026-11-17,Raleigh,Burlington,Completed
+39,3,5,2026-11-17,Charlotte,Augusta,Completed
+40,6,11,2026-11-17,Raleigh,Apex,Completed,,Passenger servic
+41,7,20,2026-11-17,Charlotte,Spartanburg,Completed
+42,9,13,2026-11-18,Durham,Greensboro,Completed
+43,10,12,2026-11-18,Raleigh,Cary,Completed
+44,11,18,2026-11-18,Charlotte,Concord,Completed
+45,13,25,2026-11-18,Greensboro,Charlotte,Completed
+46,15,3,2026-11-18,Fayetteville,Lumberton,Completed
+47,1,1,2026-11-18,Southern Pines,Pinehurst,Completed
+48,2,4,2026-11-18,Raleigh,Durham,Completed
+49,3,5,2026-11-18,Charlotte,Rock Hill,Completed
+50,6,11,2026-11-18,Durham,Chapel Hill,Completed
+51,4,2,2026-11-05,Southern Pines,Raleigh,Canceled
+52,5,10,2026-11-06,Greensboro,Charlotte,Canceled
+53,8,9,2026-11-07,Fayetteville,Clinton,Canceled
+54,12,6,2026-11-08,Raleigh,Wilson,Canceled
+55,14,22,2026-11-09,Durham,Oxford,Canceled
+56,4,2,2026-11-10,Southern Pines,Charlotte,Canceled
+57,5,10,2026-11-11,Raleigh,Greensboro,Canceled
+58,8,9,2026-11-12,Fayetteville,Raeford,Canceled
+59,12,6,2026-11-13,Charlotte,Concord,Canceled
+60,14,22,2026-11-14,Raleigh,Goldsboro,Canceled
+61,4,2,2026-11-15,Southern Pines,Fayetteville,Canceled
+62,5,10,2026-11-15,Greensboro,Durham,Canceled
+63,8,9,2026-11-16,Fayetteville,Lumberton,Canceled
+64,12,6,2026-11-16,Raleigh,Cary,Canceled
+65,14,22,2026-11-16,Charlotte,Statesville,Canceled
+66,4,2,2026-11-17,Southern Pines,Rockingham,Canceled
+67,5,10,2026-11-17,Raleigh,Wilson,Canceled
+68,8,9,2026-11-18,Fayetteville,Hope Mills,Canceled
+69,12,6,2026-11-18,Durham,Hillsborough,Canceled
+70,14,22,2026-11-18,Raleigh,Apex,Canceled
+71,1,1,2026-11-19,Southern Pines,Charlotte,Scheduled
+72,2,4,2026-11-19,Raleigh,Durham,Scheduled
+73,3,5,2026-11-19,Charlotte,Atlanta,Scheduled
+74,4,2,2026-11-19,Fayetteville,Lumberton,Scheduled
+75,6,11,2026-11-20,Raleigh,Chapel Hill,Scheduled
+76,7,20,2026-11-20,Charlotte,Columbia,Scheduled
+77,9,13,2026-11-20,Greensboro,Winston-Salem,Scheduled
+78,10,12,2026-11-20,Raleigh,Cary,Scheduled
+79,11,18,2026-11-21,Charlotte,Asheville,Scheduled
+80,13,25,2026-11-21,Greensboro,Charlotte,Scheduled
+81,15,3,2026-11-21,Fayetteville,Jacksonville,Scheduled
+82,1,1,2026-11-22,Southern Pines,Pinehurst,Scheduled
+83,2,4,2026-11-22,Raleigh,Wilson,Scheduled
+84,3,5,2026-11-22,Charlotte,Greenville SC,Scheduled
+85,6,11,2026-11-23,Durham,Chapel Hill,Scheduled
+86,7,20,2026-11-23,Charlotte,Rock Hill,Scheduled
+87,9,13,2026-11-23,Greensboro,High Point,Scheduled
+88,10,12,2026-11-24,Raleigh,Garner,Scheduled
+89,11,18,2026-11-24,Charlotte,Statesville,Scheduled
+90,13,25,2026-11-24,Greensboro,Durham,Scheduled
+91,15,3,2026-11-25,Fayetteville,Goldsboro,Scheduled
+92,1,1,2026-11-25,Southern Pines,Carthage,Scheduled
+93,2,4,2026-11-26,Raleigh,Burlington,Scheduled
+94,3,5,2026-11-26,Charlotte,Augusta,Scheduled
+95,6,11,2026-11-26,Raleigh,Apex,Scheduled
+96,7,20,2026-11-27,Charlotte,Spartanburg,Scheduled
+97,9,13,2026-11-27,Durham,Greensboro,Scheduled
+98,10,12,2026-11-27,Raleigh,Cary,Scheduled
+99,11,18,2026-11-28,Charlotte,Concord,Scheduled
+100,13,25,2026-11-28,Greensboro,Charlotte,Scheduled
