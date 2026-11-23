@@ -2,5 +2,11 @@ package com.labs;
 
 public class Maintenance {
     int maintenanceID;
-    String repairRecords;
+    int vehicleID;
+    String maintenanceDate;
+    String maintenanceType;
+    String description;
+    int partCost;
+    int laborCost;
+    String serviceStatus;
 }

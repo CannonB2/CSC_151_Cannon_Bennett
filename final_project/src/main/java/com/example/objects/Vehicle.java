@@ -5,5 +5,4 @@ public class Vehicles {
     String vehicleName;
     String type;
     String status;
-    String maintenanceHistory;
 }

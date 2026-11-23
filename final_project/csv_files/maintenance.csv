@@ -1,0 +1,50 @@
+1,1,2026-01-05,Preventive Maintenance,Engine oil and filter replacement,45,35,Completed
+2,1,2026-04-12,Repair,Front brake pad replacement,120,85,Completed
+3,2,2026-01-08,Preventive Maintenance,Tire rotation and oil change,95,50,Completed
+4,2,2026-05-15,Repair,Battery replacement,180,45,Completed
+5,3,2026-02-03,Repair,Transmission fluid leak inspection and repair,150,180,In Progress
+6,3,2026-03-18,Preventive Maintenance,Air filter and oil replacement,55,40,Completed
+7,4,2026-01-12,Preventive Maintenance,Engine oil change and tire inspection,85,45,Completed
+8,4,2026-04-20,Repair,Alternator replacement,260,120,Completed
+9,5,2026-02-10,Preventive Maintenance,Diesel engine oil and filter service,110,75,Completed
+10,5,2026-05-22,Repair,Rear brake rotor replacement,320,160,Completed
+11,6,2026-01-15,Repair,Engine overheating diagnosis,220,250,In Progress
+12,6,2026-02-28,Repair,Cooling system radiator replacement,350,200,Pending
+13,7,2026-01-20,Preventive Maintenance,Hybrid system inspection and oil change,65,55,Completed
+14,7,2026-04-25,Repair,12V auxiliary battery replacement,145,50,Completed
+15,8,2026-02-05,Preventive Maintenance,Tire rotation and brake inspection,40,60,Completed
+16,8,2026-06-10,Repair,Air conditioning system diagnosis and repair,180,140,Completed
+17,9,2026-01-25,Repair,Diesel engine diagnostic and maintenance,450,350,In Progress
+18,9,2026-03-10,Repair,Air brake system inspection and repair,280,220,Pending
+19,10,2026-02-12,Preventive Maintenance,Diesel oil and fuel filter replacement,125,85,Completed
+20,10,2026-05-30,Repair,Rear tire replacement,380,100,Completed
+21,11,2026-01-18,Preventive Maintenance,Oil change and suspension inspection,70,50,Completed
+22,11,2026-04-14,Repair,Front shock absorber replacement,240,130,Completed
+23,12,2025-11-20,Repair,Engine misfire diagnosis,180,160,Completed
+24,12,2026-01-10,Preventive Maintenance,Final vehicle inspection and fluid service,90,65,Completed
+25,13,2026-02-15,Preventive Maintenance,Oil change and cabin filter replacement,85,55,Completed
+26,13,2026-05-18,Repair,Brake caliper replacement,290,150,Completed
+27,14,2026-01-22,Preventive Maintenance,Diesel engine oil and filter service,140,90,Completed
+28,14,2026-04-28,Repair,Heavy-duty battery replacement,320,85,Completed
+29,15,2026-02-20,Preventive Maintenance,Multi-point vehicle inspection,50,75,Pending
+30,15,2026-03-25,Repair,Front suspension inspection and repair,190,140,In Progress
+31,16,2026-01-30,Repair,Starter motor replacement,210,160,Pending
+32,16,2026-03-05,Repair,Engine electrical system diagnosis,125,200,In Progress
+33,17,2026-02-08,Preventive Maintenance,Synthetic oil change and filter replacement,110,80,Completed
+34,17,2026-06-02,Repair,Brake pad and rotor replacement,480,220,Completed
+35,18,2026-01-28,Preventive Maintenance,Diesel engine oil and fuel filter service,260,180,Completed
+36,18,2026-05-12,Repair,Turbocharger inspection and repair,750,500,Completed
+37,19,2026-02-18,Preventive Maintenance,Engine oil and tire rotation service,65,45,Completed
+38,19,2026-05-25,Repair,Windshield wiper motor replacement,140,90,Completed
+39,20,2026-01-16,Repair,School bus brake system inspection and repair,420,300,In Progress
+40,20,2026-03-22,Preventive Maintenance,Engine oil and safety inspection,160,120,Pending
+41,21,2026-02-22,Preventive Maintenance,Engine oil change and air filter service,35,30,Completed
+42,21,2026-05-08,Repair,Drive belt replacement,95,70,Completed
+43,22,2026-01-26,Preventive Maintenance,Synthetic oil change and tire inspection,90,55,Completed
+44,22,2026-04-30,Repair,Rear brake pad replacement,160,100,Completed
+45,23,2025-12-05,Repair,Diesel fuel injection system repair,480,320,Completed
+46,23,2026-01-18,Preventive Maintenance,Final mechanical inspection and fluid service,130,90,Completed
+47,24,2026-03-02,Preventive Maintenance,Battery health and tire inspection,50,75,Pending
+48,24,2026-06-15,Repair,Charging port diagnostic and repair,220,180,In Progress
+49,25,2026-02-25,Preventive Maintenance,Oil change and cabin air filter replacement,65,45,Completed
+50,25,2026-06-20,Repair,Sliding door motor replacement,280,150,Completed
